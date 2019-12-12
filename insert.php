@@ -49,7 +49,7 @@
 		
 			if ($conn->query($query)===TRUE) {
 			    echo " <script> alert('New data created successfully ');</script>";
-                echo "<script type='text/javascript'>document.location.href='index.php';</script>";
+                	    echo "<script type='text/javascript'>document.location.href='index.php';</script>";
 			}
 			else {
 				echo "Error: ". $query . "<br>" . mysqli_error($conn);
